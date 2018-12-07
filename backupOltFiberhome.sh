@@ -9,8 +9,9 @@ if [ -z ${1} ] ; then
 	exit 1
 fi
 
-DATA=$(date +"%d-%m-%Y")
 IP_OLT=$1
+DATA=$(date +"%d-%m-%Y")
+
 #	User and Pass
 USER='GEPON'
 PASS='GEPON'
