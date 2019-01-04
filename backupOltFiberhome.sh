@@ -1,7 +1,7 @@
 #!/bin/bash
 #	@Jefte de Lima Ferreira
 #	jeftedelima at gmail dot com
-#	10 00 * * *     root    sh /home/yourdirectory/backupOltFiberhome.sh 192.168.50.2 > /dev/null 2>&1
+#	10 00 * * *     root    sh /home/yourdirectory/backupOltFiberhome.sh 192.168.25.200 > /dev/null 2>&1
 
 if [ -z ${1} ] ; then
 	echo "You need to specify the IP address of OLT"
