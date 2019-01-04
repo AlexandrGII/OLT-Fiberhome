@@ -5,7 +5,7 @@
 
 if [ -z ${1} ] ; then
 	echo "You need to specify the IP address of OLT"
-	echo "Usage example: ./backupOltFiberhome.sh 192.168.50.2"
+	echo "Usage example: ./backupOltFiberhome.sh 192.168.25.200"
 	exit 1
 fi
 
